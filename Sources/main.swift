@@ -1,7 +1,7 @@
 import HTTPServer
 
 let arguments = try Configuration.commandLineArguments()
-let port = arguments["port"].int ?? 8080
+let port = arguments["port"].int ?? 8081
 
 let log = LogMiddleware()
 
